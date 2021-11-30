@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML: Forms</title>
+        <link rel="stylesheet" href="../files/style.css"/>
+    </head>
+
+    <body >
+        <div class="container">
+            <div class="subtitle">
+                HTML
+            </div>
+            <div class="maintitle">
+                Forms
+            </div>
+            <div class="paragraph">
+                <h1>
+                    What are the HTML Forms?
+                </h1>
+                <p>
+                    HTML form is used to collect user input. The user input 
+                    is most often sent to a server for processing. Form starts with
+                    these tags: <span class="codein">&lt;form&gt;string of text&lt;/tag_name&gt;</span>
+
+                </p>
+            </div>
+            <h3>
+                Form Elements:
+            </h3>
+            <div class="paragraph">
+                <h1>
+                    The Input Types
+                </h1>
+                <p>
+                    The input element is the most used form element, it can 
+                    be displayed in many ways, depending on the type attribute,
+                    it has variations.The input tag can be written as: 
+                    <span class="codein">&lt;input&gt;</span>
+                </p>
+                <p><big><b>Input element variations:</b></big></p>
+                <p>
+                    <b>Text type: </b>Displays a single-line text input field. 
+                    <br><b>Radio type: </b>Displays a radio button for selecting one of many choices.
+                    <br><b>Checkbox type: </b>Displays a checkbox for selecting zero or more of many choices.
+                    <br><b>Submit type: </b>Displays a submit button for submitting the form.
+                    <br><b>Button type: </b>Displays a clickable button.
+                </p>
+                
+                <p><b>Sample codes using the input variations: </b></p>
+                <p class="code">
+                    &lt;form&gt; <br>
+                    &lt;fieldset&gt; <br>
+                    &lt;legend&gt;Enter the details about you.&lt;/legend&gt; <br>
+                        &lt;br&gt;Full name: &lt;input type="text" name="fullname"&gt; &lt;br&gt; <br>
+                        &lt;br&gt;Gender: <br>
+                        &lt;input type="radio" name="gender"&gt; Male <br>
+                        &lt;input type="radio" name="gender"&gt; Female &lt;br&gt; <br>
+                        &lt;br&gt;Age confirmation: <br>
+                        &lt;input type="checkbox" name="ageconfirm"&gt; 18 above &lt;br&gt; <br>
+
+                        &lt;br&gt;&lt;input type="submit" name="submit" value="Submit"&gt; <br>
+                        &lt;input type="button" name="cancel" value="Cancel"&gt; &lt;br&gt; <br>
+                    &lt;/fieldset&gt; <br>
+                    &lt;/form&gt; <br>
+                </p>
+                <b>Result :</b>
+                <div class="result">
+                    <form>
+                        <fieldset>
+                            <legend>Details about you.</legend> 
+                            <br>Full name: <input type="text" name="fullname"> <br>
+                            <br>Gender:
+                            <input type="radio" name="gender"> Male
+                            <input type="radio" name="gender"> Female <br>
+                            <br>Age confirmation:
+                            <input type="checkbox" name="ageconfirm"> 18 above <br>
+
+                            <br><input type="submit" name="submit" value="Submit"> 
+                            <input type="button" name="cancel" value="Cancel"> <br>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="paragraph">
+                <h1>
+                    The Form Attributes
+                </h1>
+                <p>
+                    <b>Action Attribute: </b>It defines the action to be performed when the form
+                    is going to be submitted to a server, using a submit button. 
+                    <br><b>Method Attribute: </b>Specifies the HTTP method <b>GET</b> 
+                    for searching or <b>POST</b> for password inputs to be 
+                    used when submitting the forms.
+                </p>
+
+                <p><b>Sample codes using the form attributes: </b></p>
+                <p class="code">
+                    &lt;form action="./Tests/input.php" method="post"&gt; <br>
+                        Full Name:&lt;br&gt; <br>
+                        &lt;input type="text" name="fullname" value="Name Here"&gt; &lt;br&gt; <br>
+                        
+                        Password:&lt;br&gt; <br>
+                        &lt;input type="text" name="password" value="Password Here"&gt; <br>
+                        &lt;br&gt;&lt;br&gt; <br>
+                        &lt;input type="submit" value="Submit"&gt; <br>
+                    &lt;/form&gt;
+                </p>
+                <b>Result :</b>
+                <div class="result">
+                    <form action="./Tests/input.php" method="post">
+                        Full Name:<br>
+                        <input type="text" name="fullname" value="Name Here"><br>
+                        Password:<br>
+                        <input type="text" name="password" value="Password Here">
+                        <br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="links">
+            <h2>
+                LINKS
+            </h2>
+            <table>
+                <tr>
+                    <td class="title">
+                        <h1>
+                            Next Lesson: 
+                        </h1>
+                    </td>
+                    <td>
+                        <a href="opening_workplace.html">Workplace</a>
+                    </td>
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <td class="title">
+                        <h1>
+                            Home: 
+                        </h1>
+                    </td>
+                    <td>
+                        <a href="..\index.html">Web Development</a>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="title">
+                        <h1>
+                            HTML Lessons:
+                        </h1>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="introduction.html">Introduction</a></li>
+                            <li><a href="basic_tags.html">Basic Tags</a></li>
+                            <li><a href="form.html">Forms</a></li>
+                            <li><a href="lists.html">Lists</a></li>
+                            <li><a href="multimedia.html">Multimedia</a></li>
+                            <li><a href="styles.html">Styles</a></li>
+                            <li><a href="tables.html">Tables</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </body>
+</html>
