@@ -70,19 +70,31 @@ html {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.result ul, .result li {
+    list-style-type: unset;
+    text-decoration: unset;
+}
 
-ul, li {
+
+.links ul, .links li {
     padding: 0;
     list-style-type: none;
     text-decoration: none;
 }
+
+
 
 .table h1 {
     font-weight: bolder;
     font-size: 25pt;
 }
 
-.table tr h1, h2, h3, h4, h5, h6 {
+.table tr h1,
+.table tr h2, 
+.table tr h3, 
+.table tr h4, 
+.table tr h5, 
+.table tr h6 {
     font-weight: normal;
     font-style: normal;
 }
@@ -97,7 +109,7 @@ ul, li {
 }
 
 
-.tableB table, td{
+.tableB table, .tableB td{
     padding: 5px 0;
     border: none;
 }
