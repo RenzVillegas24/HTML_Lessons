@@ -7,7 +7,7 @@
   $password = $_POST['password'];
 
   echo "Full Name: ".$fullname."<br>Password: ".$password."<br>";
-  print_r($_POST);  
+  
 ?>
 
 </body>
