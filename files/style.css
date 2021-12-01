@@ -190,6 +190,14 @@ html {
     line-height: 55px;
 }
 
+.links .current {
+    font-weight: bolder;
+    color:lightgreen;
+    font-size: 25px;
+    line-height: 55px;
+
+}
+
 .links a:hover {
     font-weight: bolder;
 }
