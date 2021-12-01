@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML: Tables</title>
+        <link rel="stylesheet" href="../files/style.css"/>
+    </head>
+
+    <body >
+        <div class="container">
+            <div class="subtitle">
+                HTML
+            </div>
+            <div class="maintitle">
+                Tables
+            </div>
+            <div class="paragraph">
+                <h1>
+                    What are the HTML Tables?
+                </h1>
+                <p>
+                    HTML tables allow web developers to arrange data into rows and columns.
+                </p>
+                <div class="result">
+                    <table style="width:100%">
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                        </tr>
+                    </table>
+                      
+                </div>
+                <p>
+                    <b>Example Codes:</b>
+                    <div class="codein" style="padding: 15px;">
+                        &lt;table class="tb0" style="width:100%"&gt; <br>
+                        &lt;tr&gt; <br>
+                            &lt;th&gt;Firstname&lt;/th&gt; <br>
+                            &lt;th&gt;Lastname&lt;/th&gt; <br>
+                            &lt;th&gt;Age&lt;/th&gt; <br>
+                        &lt;/tr&gt; <br>
+                        &lt;tr&gt; <br>
+                            &lt;td&gt;Jill&lt;/td&gt; <br>
+                            &lt;td&gt;Smith&lt;/td&gt; <br>
+                            &lt;td&gt;50&lt;/td&gt; <br>
+                        &lt;/tr&gt; <br>
+                        &lt;tr&gt; <br>
+                            &lt;td&gt;Eve&lt;/td&gt; <br>
+                            &lt;td&gt;Jackson&lt;/td&gt; <br>
+                            &lt;td&gt;94&lt;/td&gt; <br>
+                        &lt;/tr&gt; <br>
+                        &lt;tr&gt; <br>
+                            &lt;td&gt;John&lt;/td&gt; <br>
+                            &lt;td&gt;Doe&lt;/td&gt; <br>
+                            &lt;td&gt;80&lt;/td&gt; <br>
+                        &lt;/tr&gt; <br>
+                    &lt;/table&gt;
+                    </div>
+                </p> 
+            </div>
+            <h3>
+                HTML Table Customization
+            </h3>
+            <h1>
+                Table Styles
+            </h1>
+            <div class="paragraph">
+                <b><big>
+                    HTML Table with a Border Attribute
+                </big></b> 
+
+                <div class="result">
+                    <table class="tb1" style="width:100%">
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                        </tr>
+                      </table>
+                      
+                </div>
+                <p>
+                    <b>Style Code:</b>
+                    <div class="codein" style="padding: 15px;">
+                        table, th, td { <br> 
+                            border: 1px solid black; <br>
+                        }
+                    </div>
+                </p> 
+            </div>
+
+            <div class="paragraph">
+                <b><big>
+                    HTML Table with Collapsed Borders
+                </big></b>
+                <div class="result">
+                    <table class="tb2" style="width:100%">
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                        </tr>
+                      </table>
+                      
+                </div>
+                <p>
+                    <b>Style Code:</b>
+                    <div class="codein" style="padding: 15px;">
+                        table, th, td { <br> 
+                            border: 1px solid black; <br>
+                            border-collapse: collapse; <br>
+                        }
+                    </div>
+                </p> 
+            </div>
+
+            <div class="paragraph">
+                <b><big>
+                    HTML Table with Cell Padding
+                </big></b>
+                <div class="result">
+                    <table class="tb3" style="width:100%">
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                        </tr>
+                      </table>
+                      
+                </div>
+                <p>
+                    <b>Style Code:</b>
+                    <div  class="codein" style="padding: 15px;">
+                        table, th, td { <br> 
+                            border: 1px solid black; <br>
+                            border-collapse: collapse; <br>
+                        } <br>
+                        td, th{<br>
+                            padding: 7px;<br>
+                        }
+
+                    </div>
+                </p> 
+            </div>
+
+            <div class="paragraph">
+                <b><big>
+                    HTML Table with Border Spacing
+                </big></b>
+                <div class="result">
+                    <table class="tb4" style="width:100%">
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                        </tr>
+                      </table>
+                      
+                </div>
+                <p>
+                    <b>Style Code:</b>
+                    <div  class="codein" style="padding: 15px;">
+                        table, th, td { <br> 
+                            border: 1px solid black; <br>
+                            padding: 5px;<br>
+                        }<br>
+                        table{<br>
+                            border-spacing: 15px;<br>
+                        }
+                    </div>
+                </p> 
+            </div>
+
+            <div class="paragraph">
+                <b><big>
+                    HTML Table with Caption
+                </big></b>
+                <div class="result">
+                    <table class="tb3" style="width:100%">
+                        <caption>Monthly savings</caption>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                        <tr>
+                            <td>Jill</td>
+                            <td>Smith</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Eve</td>
+                            <td>Jackson</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>80</td>
+                        </tr>
+                      </table>
+                      
+                </div>
+                <p>
+                    <b>Added Code Inside the Table:</b>
+                    <div  class="codein" style="padding: 15px;">
+                        &lt;caption&gt;Monthly savings&lt;/caption&gt;
+                    </div>
+                </p> 
+            </div>
+
+            <h1>
+                Table Spans
+            </h1>
+            <div class="paragraph">
+                <b><big>
+                    HTML Table that Span Many Columns
+                </big></b>
+                <div class="result">
+                    <table class="tb3" style="width:100%">
+                        <tr>
+                            <th>Name</th>
+                            <th colspan="2">Telephone</th>
+                          </tr>
+                          <tr>
+                            <td>Bill Gates</td>
+                            <td>55577854</td>
+                            <td>55577855</td>
+                          </tr>
+                    </table>
+                      
+                </div>
+                <p>
+                    <b>Column Span Code:</b>
+                    <div  class="codein" style="padding: 15px;">
+                        &lt;table class="tb3" style="width:100%"&gt;  <br>
+                        &lt;tr&gt; <br>
+                            &lt;th&gt;Name&lt;/th&gt; <br>
+                            &lt;th colspan="2"&gt;Telephone&lt;/th&gt; <br>
+                          &lt;/tr&gt; <br>
+                          &lt;tr&gt; <br>
+                            &lt;td&gt;Bill Gates&lt;/td&gt; <br>
+                            &lt;td&gt;55577854&lt;/td&gt; <br>
+                            &lt;td&gt;55577855&lt;/td&gt; <br>
+                          &lt;/tr&gt; <br>
+                    &lt;/table&gt;
+                    </div>
+                </p> 
+            </div>
+
+            <div class="paragraph">
+                <b><big>
+                    HTML Table that Span Many Rows
+                </big></b>
+                <div class="result">
+                    <table class="tb3" style="width:100%">
+                        <tr>
+                            <th>Name:</th>
+                            <td>Bill Gates</td>
+                          </tr>
+                          <tr>
+                            <th rowspan="2">Telephone:</th>
+                            <td>55577854</td>
+                        </tr>
+                        <tr>
+                            <td>55577855</td>
+                        </tr>                   
+                    </table>
+                      
+                </div>
+                <p>
+                    <b>Row Span Code:</b>
+                    <div  class="codein" style="padding: 15px;">
+                        &lt;table class="tb3" style="width:100%"&gt; <br>
+                        &lt;tr&gt; <br>
+                            &lt;th&gt;Name:&lt;/th&gt; <br>
+                            &lt;td&gt;Bill Gates&lt;/td&gt; <br>
+                          &lt;/tr&gt; <br>
+                          &lt;tr&gt; <br>
+                            &lt;th rowspan="2"&gt;Telephone:&lt;/th&gt; <br>
+                            &lt;td&gt;55577854&lt;/td&gt; <br>
+                        &lt;/tr&gt; <br>
+                        &lt;tr&gt; <br>
+                            &lt;td&gt;55577855&lt;/td&gt; <br>
+                        &lt;/tr&gt; <br>
+                    &lt;/table&gt;
+                    </div>
+                </p> 
+            </div>
+            
+        </div>
+
+        <div class="links">
+            <h2>
+                LINKS
+            </h2>
+            <table>
+                <tr>
+                    <td class="title">
+                        <h1>
+                            Next Lesson: 
+                        </h1>
+                    </td>
+                    <td>
+                        <a href="opening_workplace.html">Workplace</a>
+                    </td>
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <td class="title">
+                        <h1>
+                            Home: 
+                        </h1>
+                    </td>
+                    <td>
+                        <a href="..\index.html">Web Development</a>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="title">
+                        <h1>
+                            HTML Lessons:
+                        </h1>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="introduction.html">Introduction</a></li>
+                            <li><a href="basic_tags.html">Basic Tags</a></li>
+                            <li><a href="form.html">Forms</a></li>
+                            <li><a href="lists.html">Lists</a></li>
+                            <li><a href="multimedia.html">Multimedia</a></li>
+                            <li><a href="styles.html">Styles</a></li>
+                            <li><a href="tables.html">Tables</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="title">
+                        <h1>
+                            Website Details:
+                        </h1>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="about.html">About Me</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </body>
+</html>

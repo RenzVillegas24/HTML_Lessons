@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<p>RESULT:</p>
 <?php
   $fullname = $_POST['fullname'];
   $password = $_POST['password'];
