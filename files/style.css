@@ -6,6 +6,7 @@ html {
     font-size: 14pt;
     margin: auto;
     max-width: 850px;
+    min-width: 850px;
 }
 .container{
     margin: 30px;
@@ -200,4 +201,26 @@ html {
 
 .links a:hover {
     font-weight: bolder;
+}
+
+
+.about_table .about_img{
+    width: 43%;
+}
+
+.about_table .about_txt{
+    padding: 30px;
+}
+
+
+.social_media {
+    padding-top: 20px;
+}
+.social_media .n {
+    padding: 0 20px;
+}
+
+.social_media td img {
+    margin: 8px 0 2px 0;
+    width: 30px;
 }
